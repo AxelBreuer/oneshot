@@ -18,7 +18,7 @@ The code in this repo attempts to reproduce their published results.
 *Troubleshooting: If you don't have git on your machine to pull the repository, download and install https://gitforwindows.org/. Then, in your freshly installed Git Bash type*
 
 ```console
-cd /C/Users/<your GAIA>/src
+cd /C/Users/<your name>/src
 git clone https://github.com/AxelBreuer/oneshot.git
 ```
 
