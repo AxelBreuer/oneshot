@@ -10,7 +10,7 @@ The code in this repo attempts to reproduce their published results.
 
 # Installation
 
-**Step 1** Clone the oneshot repository into your sources directory, in our example `C:\Users\<your name>\src`.
+**Step 1** Clone the *oneshot* repository into your sources directory, in our example `C:\Users\<your name>\src`.
 
 
 ---
