@@ -5,14 +5,14 @@ Created on Tue May 11 16:15:17 2021
 @author: Axel Breuer (with guidance by Didier Auroux)
 """
 
-
-import time
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.linalg as la
-import matplotlib.pyplot as plt
+import time
 
-from poisson_solve import poisson_solve
-from poisson_verify import poisson_verify
+
+from oneshot.poisson_solve import poisson_solve
+from oneshot.poisson_verify import poisson_verify
 
 
 """

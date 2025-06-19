@@ -5,13 +5,13 @@ Created on Mon Jun 16 09:20:55 2025
 @author: GD5264
 """
 
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.linalg as la
-import matplotlib.pyplot as plt
 
-from get_test_image import get_test_image
-from poisson_solve_fipy import poisson_solve_fipy
-from pcolor_xy import pcolor_xy
+from oneshot.get_test_image import get_test_image
+from oneshot.pcolor_xy import pcolor_xy
+from oneshot.poisson_solve_fipy import poisson_solve_fipy
 
 
 """
@@ -19,7 +19,7 @@ The purpose of this script is to implement the inpainting algorithm
 described in "A one-shot inpainting algorithm based on the
 topological asymptotic analysis" by Auroux and Masmoudi.
 
-This is the same as inpaint4.py buy using 'fipy', a finite volume package.
+This is the same as inpaint4.py but using 'fipy', a finite volume package.
 """
 
 # close all current plots

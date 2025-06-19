@@ -5,15 +5,14 @@ Created on Tue May 11 16:15:17 2021
 @authors: Axel Breuer and Didier Auroux
 """
 
-
-import time
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.linalg as la
-import matplotlib.pyplot as plt
+import time
 
-from poisson_solve import poisson_solve
-from poisson_solve2 import poisson_solve2
-from poisson_solve3 import poisson_solve3
+from oneshot.poisson_solve import poisson_solve
+from oneshot.poisson_solve2 import poisson_solve2
+
 
 """
 The purpose of this script is to implement the inpainting algorithm

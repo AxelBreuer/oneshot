@@ -6,17 +6,17 @@ Created on Tue May 11 16:15:17 2021
 """
 
 
-import time
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.linalg as la
-import matplotlib.pyplot as plt
 from scipy.sparse import csc_matrix
 from scipy.sparse.linalg import spsolve
+import time
 
-from poisson_builder_2D import poisson_builder_2D
-#from poisson_builder_2Db import poisson_builder_2Db as poisson_builder_2D
-#from poisson_builder_2Dc import poisson_builder_2Dc as poisson_builder_2D
-from poisson_verify import poisson_verify
+from oneshot.poisson_builder_2D import poisson_builder_2D
+# from oneshot.poisson_builder_2Db import poisson_builder_2Db as poisson_builder_2D
+# from oneshot.poisson_builder_2Dc import poisson_builder_2Dc as poisson_builder_2D
+from oneshot.poisson_verify import poisson_verify
 
 
 """
